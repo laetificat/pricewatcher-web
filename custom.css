@@ -1,0 +1,21 @@
+body {
+    background-color: #222840;
+}
+
+.chart {
+    background-color: #131633;
+}
+
+.chart-title {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.chart-title:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+canvas {
+    width: 100% !important;
+}
