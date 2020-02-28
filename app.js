@@ -18,7 +18,7 @@ $(function() {
             }
 
             $('<div class="col-lg chart m-2">' +
-                    '<a href="'+priceItem["Url"]+'" class="chart-title"><p class="lead text-center">'+priceItem["Name"]+'</p></a>' +
+                    '<a href="'+priceItem["URL"]+'" class="chart-title"><p class="lead text-center">'+priceItem["Name"]+'</p></a>' +
                     '<canvas id="price-'+counter+'"></canvas>' +
                 '</div>'
             ).appendTo(rowEl);
